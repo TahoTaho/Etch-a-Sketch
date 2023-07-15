@@ -16,11 +16,11 @@ function makeGrid(columns, rows) {
 
 function mouseOver(element) {
     element.addEventListener('mouseover', () => {
-        element.style.backgroundColor = 'red';
+        element.setAttribute('style', 'background-color:red;');
     });
 }
 
-makeGrid(33,15);
+makeGrid(26,56);
 
 
 

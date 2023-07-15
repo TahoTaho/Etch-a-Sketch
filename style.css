@@ -10,14 +10,19 @@ div{
 
 .container {
     display: flex;
+    width: 960px;
+    height: 960px;
 }
 
 .column {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .row {
-    padding: 20px;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
