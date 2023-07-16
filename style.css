@@ -5,22 +5,21 @@ body {
     flex-direction: column;
 }
 
-div {
-    border: solid;
-    border-width: 1px;
-    border-collapse: collapse;
-}
-
 button {
     margin: 20px;
     font-size: 30px;
     font-family: 'Lucida Handwriting', cursive;
 }
 
+.container, .row{
+    border: solid;
+    border-width: 1px;
+}
+
 .container {
     display: flex;
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
 }
 
 .column {
