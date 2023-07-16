@@ -1,6 +1,5 @@
-const container = document.querySelector('div.container');
-
 function makeGrid(columns, rows) {
+    const container = document.querySelector('div.container');
     for (let i = 1; i <= columns; i++) {
     const column = document.createElement('div');
     column.className = 'column';
@@ -20,7 +19,9 @@ function mouseOver(element) {
     });
 }
 
-makeGrid(26,56);
+makeGrid(100,100);
+
+
 
 
 
